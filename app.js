@@ -29,7 +29,7 @@ function addtask(){
 
 
 
-
+   
    setTask();
    createTask(userInput,false);
    newUI();
@@ -118,19 +118,11 @@ function getTask(){
 getTask();
 
 function newUI(){
-    totalTask.innerHTML= `No of Total-task ${ulElelement.children.length}`;
-
-    if(ulElelement.children = 0){
-         imgContainer.hidden = false;
-       
-         
-    }else{
-        imgContainer.hidden = true;
-    }
+        totalTask.innerHTML= `No of Total-task ${ulElelement.children.length}`;
     //console.log(displayEl.children);
 }
 
-
+newUI();
 
 
 
